@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const code = urlParams.get('code');
+  window.location.replace(`http://ec2-3-110-182-144.ap-south-1.compute.amazonaws.com:8080/login/oauth2/code/cognito`);
+</script>
+</head>
+<body>
+  <h2> hello world !!!</h2>
+</body>
+</html>
